@@ -112,9 +112,9 @@ export default function Home({ initialCount }) {
             href={news ? news.url : "/"}
             className="text-white text-xl font-light leading-normal mx-auto items-center"
           >
-            <span>"</span>
+            <span>&quot;</span>
             {news ? news.title : "Loading .."}
-            <span>"</span>
+            <span>&quot;`</span>
           </Link>
           {/* <div class="mt-10 flex items-center gap-4">
             <a
